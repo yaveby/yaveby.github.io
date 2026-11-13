@@ -223,6 +223,7 @@ h1 {
 .btn-solid { background: var(--accent); color: var(--on-accent); }
 .btn-solid:hover { background: color-mix(in srgb, var(--accent) 88%, var(--ink)); }
 .btn-quiet { border-color: var(--line); }
+.btn-sub { font-size: .85rem; color: var(--muted); }
 .btn-quiet:hover { border-color: var(--accent); background: var(--surface); }
 
 /* Sections -------------------------------------------------- */
@@ -379,7 +380,7 @@ h2 {
 
 @media (min-width: 40rem) {
   :root { --gutter: 2.5rem; }
-  .actions { flex-direction: row; }
+  .actions { flex-direction: row; flex-wrap: wrap; }
   .facts { grid-template-columns: repeat(4, 1fr); }
   .principles { grid-template-columns: 1fr 1fr; gap: 3rem 2.5rem; }
   .nav-link { display: inline-block; }
