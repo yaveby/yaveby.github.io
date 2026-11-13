@@ -4,7 +4,8 @@ Personal site of Diego Yavé, published with GitHub Pages at <https://yaveby.git
 
 Plain HTML, CSS and a few lines of JavaScript. No build step: edit the files and push to `main`.
 
-- `index.html` – content
+- `index.html` – content (English)
+- `es/index.html` – content (Spanish); keep both in sync
 - `styles.css` – styles (mobile-first, light and dark)
 - `script.js` – scroll reveal
 - `404.html` – not-found page
